@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Test</string>
+    <string name="message_hint">Write your message</string>
+    <string name="toast_button">Send to Toast</string>
+    <string name="activity_button">Send to Activity</string>
+    <string name="null_text">It is null</string>
+    <string name="other_button">Send to other apps</string>
+</resources>
