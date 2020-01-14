@@ -17,8 +17,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SecondActivity"/>
-        <activity android:name=".RecyclerViewActivity"/>
+        <activity android:name=".SecondActivity" android:label="@string/second_activity_title"/>
+        <activity android:name=".RecyclerViewActivity" android:label="@string/recycler_activity_title"/>
     </application>
 
 </manifest>

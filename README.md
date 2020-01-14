@@ -1,1 +1,1 @@
-"# sample-kotlin-android-app" 
+# sample-kotlin-android-app

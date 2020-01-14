@@ -6,4 +6,8 @@
     <string name="null_text">It is null</string>
     <string name="other_button">Send to other apps</string>
     <string name="recycler_button">Show Recycler</string>
+    <string name="send_heading">Send</string>
+    <string name="other_heading">Others</string>
+    <string name="second_activity_title">Second Activity</string>
+    <string name="recycler_activity_title">Recycler View</string>
 </resources>
