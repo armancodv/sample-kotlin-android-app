@@ -24,6 +24,9 @@ class MainActivity : AppCompatActivity() {
         btnOtherApp.setOnClickListener {
             btnOtherAppClick()
         }
+        btnRecyclerView.setOnClickListener {
+            btnRecyclerViewClick()
+        }
     }
 
     private fun btnToastClick() {
@@ -45,6 +48,11 @@ class MainActivity : AppCompatActivity() {
         intent.putExtra(Intent.EXTRA_TEXT, message)
         intent.type = "text/plain"
         startActivity(Intent.createChooser(intent, "Share to:"))
+    }
+
+    private fun btnRecyclerViewClick() {
+        val intent = Intent(this, RecyclerViewActivity::class.java)
+        startActivity(intent)
     }
 
 }

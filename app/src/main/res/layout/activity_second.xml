@@ -12,5 +12,4 @@
         android:id="@+id/tvMessage"
         android:text="@string/null_text"/>
 
-
 </RelativeLayout>

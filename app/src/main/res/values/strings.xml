@@ -5,4 +5,5 @@
     <string name="activity_button">Send to Activity</string>
     <string name="null_text">It is null</string>
     <string name="other_button">Send to other apps</string>
+    <string name="recycler_button">Show Recycler</string>
 </resources>
