@@ -18,7 +18,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".SecondActivity" android:label="@string/second_activity_title"/>
-        <activity android:name=".RecyclerViewActivity" android:label="@string/recycler_activity_title"/>
+        <activity android:name=".ItemsActivity" android:label="@string/recycler_activity_title"/>
     </application>
 
 </manifest>

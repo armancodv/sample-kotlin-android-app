@@ -10,4 +10,5 @@
     <string name="other_heading">Others</string>
     <string name="second_activity_title">Second Activity</string>
     <string name="recycler_activity_title">Recycler View</string>
+    <string name="cv_title">Title</string>
 </resources>
