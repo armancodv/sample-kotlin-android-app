@@ -11,14 +11,14 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".MainActivity">
+        <activity android:name=".activities.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SecondActivity" android:label="@string/second_activity_title"/>
-        <activity android:name=".ItemsActivity" android:label="@string/recycler_activity_title"/>
+        <activity android:name=".activities.SecondActivity" android:label="@string/second_activity_title"/>
+        <activity android:name=".activities.ItemsActivity" android:label="@string/recycler_activity_title"/>
     </application>
 
 </manifest>

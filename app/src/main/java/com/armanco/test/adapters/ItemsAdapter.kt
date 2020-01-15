@@ -1,4 +1,4 @@
-package com.armanco.test
+package com.armanco.test.adapters
 
 import android.content.Context
 import android.view.LayoutInflater
@@ -6,11 +6,13 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
+import com.armanco.test.models.ItemModel
+import com.armanco.test.R
 import kotlinx.android.synthetic.main.cardlist_items.view.*
 
 class ItemsAdapter(val context : Context, val items : List<ItemModel>) :
     RecyclerView.Adapter<ItemsAdapter.ViewHolder>() {
-    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ItemsAdapter.ViewHolder {
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         val view = LayoutInflater.from(context).inflate(R.layout.cardlist_items, parent, false)
         return ViewHolder(view)
     }
@@ -19,7 +21,7 @@ class ItemsAdapter(val context : Context, val items : List<ItemModel>) :
         return items.size
     }
 
-    override fun onBindViewHolder(holder: ItemsAdapter.ViewHolder, position: Int) {
+    override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val item = items[position]
         holder.setData(item, position)
     }

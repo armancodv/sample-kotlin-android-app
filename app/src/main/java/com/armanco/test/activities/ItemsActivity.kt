@@ -1,18 +1,21 @@
-package com.armanco.test
+package com.armanco.test.activities
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.armanco.test.models.ItemModel
+import com.armanco.test.adapters.ItemsAdapter
+import com.armanco.test.R
 import kotlinx.android.synthetic.main.activity_items.*
 
 class ItemsActivity : AppCompatActivity() {
-    val items = listOf<ItemModel>(
-            ItemModel("First"),
-            ItemModel("Second"),
-            ItemModel("Third"),
-            ItemModel("Fourth")
+    private val items = listOf<ItemModel>(
+        ItemModel("First"),
+        ItemModel("Second"),
+        ItemModel("Third"),
+        ItemModel("Fourth")
         )
-    val adapter = ItemsAdapter(this, items)
+    private val adapter = ItemsAdapter(this, items)
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
