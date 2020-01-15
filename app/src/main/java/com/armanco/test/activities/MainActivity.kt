@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
 import com.armanco.test.R
+import com.armanco.test.extensions.showToast
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -32,7 +33,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun btnToastClick() {
         val message = etMessage.text.toString()
-        Toast.makeText(this, message, Toast.LENGTH_SHORT).show()
+        showToast(message)
     }
 
     private fun btnActivityClick() {

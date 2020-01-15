@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">تست</string>
+    <string name="message_hint">پیام خود را وارد نمایید</string>
+    <string name="toast_button">ارسال به Toast</string>
+    <string name="activity_button">ارسال به Activity</string>
+    <string name="null_text">خالی است</string>
+    <string name="other_button">ارسال به نرم افزارهای دیگر</string>
+    <string name="recycler_button">نمایش لیست</string>
+    <string name="send_heading">ارسال</string>
+    <string name="other_heading">دیگر</string>
+    <string name="second_activity_title">صفحه ی دوم</string>
+    <string name="recycler_activity_title">لیست</string>
+    <string name="cv_title">عنوان</string>
+</resources>
